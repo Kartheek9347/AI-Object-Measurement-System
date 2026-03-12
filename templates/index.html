@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>AI Object Measurement</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>AI Object Measurement</h1>
+
+<p class="subtitle">
+Upload an image to detect objects and estimate their dimensions
+</p>
+
+<form method="POST" enctype="multipart/form-data">
+
+<div class="upload-box">
+<input type="file" name="image" required>
+</div>
+
+<button class="btn">Detect & Measure</button>
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
